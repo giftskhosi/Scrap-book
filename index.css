@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg, rgb(167, 167, 167), rgb(153, 152, 152), rgb(107, 106, 106), rgb(73, 73, 73));
+}
+
+.container {
+    width: 700px;
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+    background-image: linear-gradient(120deg, gray, grey, darkgray, darkgrey);
+    box-shadow: 10px 10px 10px 0px black;
+    border-radius: 9px;
+}
+
+header {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    color: antiquewhite;
+}
+
+/* Navigation */
+#navlist {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#navlist li{
+    display: inline;
+    margin: .3rem;
+    padding: .3rem;
+}
+
+#navlist a {
+    font-size: 17px;
+    color: azure;
+}
+
+#navlist li, a {
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgb(55, 56, 56);
+    padding: .3rem;
+    border-radius: 8px;
+}
+
+#navlist li::after, a:current {
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgb(29, 58, 58);
+    padding: .3rem;
+    border-radius: 8px;
+}
+
+/* content */
+
+.purpose {
+    width: 500px;
+}
+
+.purpose h3 {
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 20px;
+    color: rgba(255, 253, 253, 0.74);
+}
+
+.purpose p {
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+/* signup */
+
+.signup {
+    width: 500px;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.signup h2 {
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 20px;
+    color: rgba(255, 253, 253, 0.74);
+    text-align: center;
+}
+
+.signup input {
+    position: absolute;
+    left: 42%;
+}
+
+.input-text {
+    padding: .5rem;
+    width: 29%;
+    border-radius: 9px;
+    border: none;
+}
+
+.input-button {
+    width: 29%;
+    padding: .5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: darkslategrey;
+    color: black;
+    font-weight: bolder;
+}
+
+.input-button:hover {
+    width: 29%;
+    padding: .5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(53, 68, 68);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+/* Login */
+
+.login {
+    width: 500px;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.login h2 {
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 20px;
+    color: rgba(255, 253, 253, 0.74);
+    text-align: center;
+}
+
+.login input {
+    position: absolute;
+    left: 42%;
+}
+
+/* projects */
+
+.projects {
+    width: 500px;
+}
+
+.projects h2 {
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 20px;
+    color: rgba(255, 253, 253, 0.74);
+    text-align: center;
+}
+
+.projects p {
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+/* pictures */
+
+.picture {
+    width: 500px;
+}
+
+.picture h2 {
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 20px;
+    color: rgba(255, 253, 253, 0.74);
+    text-align: center;
+}
+
+.picture p {
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+/* contact */
+
+.contact {
+    width: 500px;
+}
+
+.contact h2 {
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 20px;
+    color: rgba(255, 253, 253, 0.74);
+    text-align: center;
+}
+
+.contact p {
+    margin: .5rem;
+    padding: .5rem;
+
+}
